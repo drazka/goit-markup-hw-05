@@ -214,5 +214,53 @@
         </div>
     </div>
     </footer>
+    <div class="backdrop is-open">
+        <div class="modal">
+            <button type="button" class="modal-button">
+                <svg width="24" height="24"><use href="./images/icons.svg#icon-close"></use></svg>
+            </button>
+            <p class="modal-text">Leave your contacts and we will call you back</p>
+            <form>
+                <div class="modal-label-container">
+                    <label class="modal-label" for="user-name">Name</label>
+                    <div class="modal-input-container">
+                        <input type="text" name="user-name" id="user-name" class="modal-input">
+                        <svg width="18" height="24" class="modal-form-icon"><use href="./images/icons.svg#icon-name"></use></svg>
+                    </div>
+                </div>
+                <div class="modal-label-container">
+                    <label class="modal-label" for="user-tel">Phone</label>
+                    <div class="modal-input-container">
+                        <input type="tel" name="user-tel" id="user-tel" class="modal-input">
+                        <svg width="18" height="24" class="modal-form-icon"><use href="./images/icons.svg#icon-phone"></use></svg>
+                    </div>
+                </div>
+                <div class="modal-label-container">
+                    <label class="modal-label" for="user-email">Email</label>
+                    <div class="modal-input-container">
+                        <input type="email" name="user-email" id="user-email" class="modal-input"/>
+                        <svg width="18" height="24" class="modal-form-icon"><use href="./images/icons.svg#icon-email"></use></svg>
+                    </div>
+                </div>
+                <div class="modal-label-container">
+                    <label class="modal-label" for="user-comment">Comment</label>
+                    <div class="modal-input-container">
+                        <textarea name="user-comment" id="user-comment" placeholder="Text input"></textarea>
+                    </div>
+                </div>
+                <div class="checkbox-container">
+                    <input type="checkbox" id="uer-privacy" name="user-privacy"/>
+                    <label for="user-privacy">
+                        <span>
+                            <svg><use href="./images/icons.svg#icon-checkbox"></use></svg>
+                        </span>
+                        I accept the terms and confitions of the
+                        <a href="">Privacy Policy</a>
+                    </label>
+                </div>
+                <button type="submit" class="button-submit">Send</button>
+            </form>
+        </div>
+    </div>
 </body>
 </html>
