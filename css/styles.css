@@ -297,6 +297,7 @@ footer .logo {
     border: none;
     border-radius: 4px;
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    margin: 0 auto;
 }
 
 .visually-hidden {
@@ -567,11 +568,13 @@ footer .social-media-list-link:focus {
 }
 
 .modal-input:focus,
-.modal-input:focus::after,
-/* .modal-form-icon:focus, */
 .modal-input-for-textarea:focus {
     border-color: #4D5AE5;
     background-color: transparent;
+}
+
+.modal-input:focus + .modal-form-icon {
+    fill: #4D5AE5;
 }
 
 .modal-input-for-textarea {
