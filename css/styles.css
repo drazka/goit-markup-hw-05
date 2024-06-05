@@ -567,10 +567,11 @@ footer .social-media-list-link:focus {
 }
 
 .modal-input:focus,
-.modal-form-icon:focus,
-.modal-input-for-textarea:focus,
-.privacy-policy-link {
+.modal-input:focus::after,
+/* .modal-form-icon:focus, */
+.modal-input-for-textarea:focus {
     border-color: #4D5AE5;
+    background-color: transparent;
 }
 
 .modal-input-for-textarea {
@@ -613,5 +614,13 @@ footer .social-media-list-link:focus {
     fill: transparent;
 }
 
+.privacy-policy-link {
+    color: #4D5AE5;
+}
 
+.privacy-checkbox:checked + .checkbox-icon {
+    background-color: #404bbf;
+    border: none;
+    fill: #f4f4f4;
+}
 
