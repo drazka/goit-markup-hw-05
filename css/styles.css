@@ -621,7 +621,7 @@ footer .social-media-list-link:focus {
 .privacy-checkbox:checked + .modal-label .span-for-icon {
     background-color: #404bbf;
     border: none;
-    fill: #f4f4f4;
+    fill: #f4f4fd;
 }
 
 .checkbox-icon:focus-within {
