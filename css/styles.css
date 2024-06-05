@@ -612,6 +612,7 @@ footer .social-media-list-link:focus {
     align-items: center;
     justify-content: center;
     fill: transparent;
+    margin-right: 4px;
 }
 
 .privacy-policy-link {
